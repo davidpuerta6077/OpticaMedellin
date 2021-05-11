@@ -31,7 +31,7 @@ Preguntas Frecuentes
 _________________
 SERVICIOS
 Navbar
-Optometria *
+Optometria*
 _________________
 PRODUCTOS
 Navbar

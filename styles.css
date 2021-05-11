@@ -30,3 +30,19 @@ a {
     -moz-box-shadow: 10px 10px 16px -3px rgba(105, 105, 105, 1);
     box-shadow: 10px 10px 16px -3px rgba(105, 105, 105, 1);
 }
+
+
+.catalogue:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.03);
+    filter: grayscale(50%);
+    transition: all .5s ease-in-out;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    transition:all .7s ease-in-out;
+
+}
+
+.corner {
+    border-radius: 10%;
+}
