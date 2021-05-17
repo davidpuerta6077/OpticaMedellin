@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(27, 22, 45);
     font-family: unset;
     color: rgb(85, 85, 85);
 }
@@ -14,11 +14,15 @@ a {
     color: rgb(66, 66, 66);
 }
 
+p, h1, h2, h3, h4, h5, h6, label {
+    color: azure;
+}
+
 .footer {
     border-radius: solid 1px black;
     height: 10%;
     width: 100%;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
 }
 
 .carousel-custom {
@@ -45,4 +49,19 @@ a {
 
 .corner {
     border-radius: 10%;
+}
+
+.line {
+    background: rgb(21,21,25);
+    background: linear-gradient(90deg, rgba(21,21,25,1) 5%, rgba(254,255,0,1) 51%, rgba(21,21,25,1) 100%);
+    height: 2px;
+    width: 65%;
+    margin-left: -5%;
+}
+
+.lineR {
+    background: rgb(41,10,61);
+background: linear-gradient(90deg, rgba(41,10,61,1) 11%, rgba(45,253,29,1) 50%, rgba(35,255,0,1) 100%);
+    height: 2px;
+    width: 100%;
 }
